@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://media.istockphoto.com/id/536291617/tr/foto%C4%9Fraf/colorful-galaxy-with-nebula-clouds-and-starlight.jpg?s=612x612&w=0&k=20&c=4945eMLG3d636IK7zNfd6ewnWim4kuNTxx9tkruKxxQ=);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+header {
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header>nav>.logo>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    transition: color 0.7s;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+}
+
+nav .menu .menu-button {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.09);
+    padding: 12px 24px;
+    border-radius: 56px;
+    transition: all 0.7s ease;
+}
+
+nav .menu .menu-button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content>p {
+    margin-top: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 35px;
+}
+
+.burclar-1>.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(41, 3, 44, 0.2);
+}
+
+.burclar-1 {
+    display: flex;
+    padding-top: 75px;
+    margin-left: 175px;
+}
+
+.burclar-1>.card>.burc {
+    display: flex;
+    list-style: none;
+    column-gap: 68px;
+    padding-left: 25px;
+}
+
+.burclar-2 {
+    display: flex;
+    padding-top: 75px;
+    margin-left: 175px;
+}
+
+.burclar-2>.card-2>.burc-2 {
+    display: flex;
+    list-style: none;
+    padding-left: 25px;
+}
+
+.burclar-1>.card>.burc:hover {
+    box-shadow: 0px 10px 10px 0 blueviolet;
+    color: blueviolet;
+    transition: all 0.7s;
+}
+
+.burclar-2>.card-2>.burc-2:hover {
+    box-shadow: 0px 10px 10px 0 blueviolet;
+    color: blueviolet;
+    transition: all 0.7s;
+}
+
+.telif {
+    margin-top: 50px;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3e3e3;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #5f5f5f;
+}
